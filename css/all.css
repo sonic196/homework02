@@ -19,16 +19,16 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.whole {
-	width: 1440px;
-	height: 640px;
-	margin: 20px 30px 20px 30px;
-	float: center;
+.warp {
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .header {
-	width: 840px;
-	height:160;
+	width: 100%;
+    height: 110px;
 	padding-bottom: 15px;
 	background: #fdfeff; /* Old browsers */
 	background: -moz-linear-gradient(top, #fdfeff 0%, #fdfeff 87%, #c9d7d3 100%); /* FF3.6+ */
@@ -37,40 +37,117 @@ time, mark, audio, video {
 	background: -o-linear-gradient(top, #fdfeff 0%,#fdfeff 87%,#c9d7d3 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #fdfeff 0%,#fdfeff 87%,#c9d7d3 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #fdfeff 0%,#fdfeff 87%,#c9d7d3 100%); /* W3C */
+
 }
 
-.center {
-	width: 840px;
-	height: 200px;
-	margin-top: 15px;
+.logo {
+  float: left;
+  width: 400px;
+  height: auto;
+}
+
+.Register {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Shop {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Gift {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Sale {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Shop {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Sale {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Product {
+  float: left;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.content {
+	width: 100%;
+	height: 220px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 .bottom {
-	width: 840px;
-	height: 280px;
-	padding: 10px 10px 10px 10px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
 }
 
 .article{
-	width: 560px;
-	height: 150px;
-	padding: 10px 10px 10px 10px;
 	float: left;
+	width: 540px;
+	height: 100%;
+	padding-right: 20px;
+}
+
+.s1 {
+  position: absolute;
+  bottom: 0px;
+  padding-left: 30px;
+  padding-bottom: 50px;
 }
 
 .demo{
-	width: 240px;
-	height: 159px;
 	float: left;
-	padding: 10px 10px 10px 10px;
+	width: 240px;
+	height: 100%;
+	position: relative;
 	box-shadow:3px 3px 12px gray;
 }
 
-.b1{
-	width: 260px;
-	height: 280px;
+.left{
+	width: 240px;
+	height: 100%;
 	border-radius: 10px 10px 10px 10px;
 	border-color: blue;
 	background: #67d0ea; /* Old browsers */
@@ -86,9 +163,9 @@ time, mark, audio, video {
 	margin: 10px 10px 10px 10px;
 }
 
-.b2{
-	width: 260px;
-	height: 280px;
+.center{
+	width: 240px;
+	height: 100%;
 	border-radius: 10px 10px 10px 10px;
 	background: #67d0ea; /* Old browsers */
 	background: #fdfeff; /* Old browsers */
@@ -102,9 +179,9 @@ time, mark, audio, video {
 	margin: 10px 10px 10px 10px;
 }
 
-.b3{
-	width: 260px;
-	height: 280px;
+.right{
+	width: 240px;
+	height: 100%;
 	border-radius: 10px 10px 10px 10px;
 	background: #67d0ea; /* Old browsers */
 	background: #fdfeff; /* Old browsers */
